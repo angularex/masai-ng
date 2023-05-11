@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script/component.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){
+            let mycomp = new MyComp();
+            document.getElementsByTagName(mycomp.selector)[0].innerHTML = mycomp.template.replace("{{ title }}", mycomp.title).replace("{{ power }}",mycomp.power);            
+        })
+    </script>
+</head>
+<body>
+    <app-root></app-root>
+</body>
+</html>
