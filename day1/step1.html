@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       function init(){
+        document.getElementsByTagName("h1")[0].innerText = "Welcome to your life";
+       };
+       // window.onload = init;
+       // window.addEventListener("load",init);
+       // window.removeEventListener("load", init);
+       document.addEventListener("DOMContentLoaded", init);
+    </script>
+</head>
+<!-- <body onload="init()"> -->
+<body>
+    <h1></h1>
+   <!--  
+    <script>
+        init();
+    </script> 
+    -->
+</body>
+</html>
+
+<!-- 
+    document.getElementById
+    document.getElementsByTagName
+    document.querySelector()
+    document.querySelectorAll
+ -->

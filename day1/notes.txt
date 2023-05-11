@@ -1,0 +1,36 @@
+Angular 2 TypeScript Emmet
+v2.0.3
+jakethashi
++++++++++++++++++++++++++++++++++++++
+Auto Rename Tag
+v0.1.10
+Jun Han
++++++++++++++++++++++++++++++++++++++
+Live Server
+v5.7.9
+Ritwick Dey
++++++++++++++++++++++++++++++++++++++
+Mithril Emmet
+v0.7.7
+FallenMax
++++++++++++++++++++++++++++++++++++++
+open in browser
+v2.0.0
+TechER
++++++++++++++++++++++++++++++++++++++
+Prettier - Code formatter
+v9.12.0
+Prettier
++++++++++++++++++++++++++++++++++++++
+vscode-icons
+v12.4.0
+VSCode Icons Team
++++++++++++++++++++++++++++++++++++++
+
+
+
+ npm i typescript -g 
+ 
+ tsc -v
+
+tsc --init 
