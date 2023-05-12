@@ -1,0 +1,15 @@
+npm i @angular/cli -g 
+ng new helloworld
+cd helloworld
+ng serve 
+-------------------------
+
+ng new steps
+cd steps
+ng serve
+ng serve --open / ng serve -o
+ng generate application step1-binding
+ng g application step1-binding --routing=false --style=css 
+
+ng serve --project=step1-binding 
+ng serve step1-binding 
