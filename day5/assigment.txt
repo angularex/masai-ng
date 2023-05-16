@@ -1,0 +1,2 @@
+in the pipes example 
+display the movies with icons and lable instead of button
