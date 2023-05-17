@@ -1,0 +1,7 @@
+from the step2-service project
+( class level instance of service )
+1. create and example of using providers in grid component and navbar component 
+
+( main component level instance of service )
+2. create an example of using the providers in the appComponent and inject it to 
+child components navbar and grid component via input
